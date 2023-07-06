@@ -1,0 +1,17 @@
+.navbar {
+    height: 4.5rem;
+    
+    a{
+        color: white;
+    }
+
+    .logoImg {
+        height: 4rem;
+    }
+
+    &-logo-text{
+       
+        font-family:fantasy;
+        margin: auto;
+    }
+}

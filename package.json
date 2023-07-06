@@ -1,0 +1,24 @@
+{
+  "name": "bootstrapv5-sass",
+  "version": "1.0.0",
+  "description": "Learnin Bootrstrap with sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootsrtap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Lilla",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
