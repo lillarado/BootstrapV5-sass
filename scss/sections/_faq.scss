@@ -1,16 +1,23 @@
+@import "../costum";
+
 .faq-container {
-    width: 20%;
+    width: 100%;
     margin: auto;
+    text-align: center;
 
-    .faq-img-container{
-       padding: 0;
-       width: max-content;
-    }
-
-    .faq-img {
-        height: 5rem;
+    &-text {
         width: auto;
-        // position: absolute;
-        
     }
+
+    &-img {
+        padding: 0;
+        width: auto;
+
+        .faq-img {
+            height: 5rem;
+
+        }
+    }
+
+
 }

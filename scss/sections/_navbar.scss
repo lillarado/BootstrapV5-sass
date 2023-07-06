@@ -1,16 +1,22 @@
+@import "../costum";
+
 .navbar {
     height: 4.5rem;
     
+    li{
+        padding: 0 0.7rem;
+    }
+    
     a{
-        color: white;
+        color: $white;
     }
 
-    .logoImg {
+    &-logo-img {
         height: 4rem;
+        padding: 0;
     }
 
     &-logo-text{
-       
         font-family:fantasy;
         margin: auto;
     }
