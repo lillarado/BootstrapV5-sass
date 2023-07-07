@@ -2,16 +2,20 @@
 
 .faq-container {
     width: 100%;
-    margin: auto;
+    margin: 0 !important;
     text-align: center;
+   
+    
 
     &-text {
-        width: auto;
+        width: min-content !important;
+        padding: 0 !important;
     }
 
     &-img {
         padding: 0;
-        width: auto;
+        width: min-content !important;
+        padding:0 !important;
 
         .faq-img {
             height: 5rem;

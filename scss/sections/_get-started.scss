@@ -1,11 +1,15 @@
-@import '../custom';
+@import "../costum";
 @import "../components/mixins";
 
 
 
 .get-started {
     padding: 4rem 0;
-    background-color: $gray-200;
+    // background-color: $gray-200;
+
+    &-title{
+        margin: 0 !important;
+    }
 }
 
 .cta-info {
@@ -21,7 +25,6 @@
         margin-bottom: 0.7rem;
 
         li::before {
-            font-family: "Font Awesome 5 Free";
             content: "\f00c";
             font-weight: 600;
             margin-right: 0.5rem;
