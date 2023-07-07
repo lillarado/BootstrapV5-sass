@@ -7,9 +7,13 @@
    
     
 
-    &-text {
+    &-title {
         width: min-content !important;
         padding: 0 !important;
+
+        .faq-title{
+            font-size: 4rem !important;
+        }
     }
 
     &-img {

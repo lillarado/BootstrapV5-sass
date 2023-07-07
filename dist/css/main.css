@@ -80366,7 +80366,10 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-logo-img {
-  height: 4rem;
+  max-height: 4rem;
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
   padding: 0;
 }
 .navbar-logo-text {
@@ -120535,11 +120538,14 @@ textarea.form-control-lg {
   margin: 0 !important;
   text-align: center;
 }
-.faq-container-text {
+.faq-container-title {
   width: -webkit-min-content !important;
   width: -moz-min-content !important;
   width: min-content !important;
   padding: 0 !important;
+}
+.faq-container-title .faq-title {
+  font-size: 4rem !important;
 }
 .faq-container-img {
   padding: 0;

@@ -12,7 +12,8 @@
     }
 
     &-logo-img {
-        height: 4rem;
+        max-height: 4rem ;
+        max-width: min-content;
         padding: 0;
     }
 
