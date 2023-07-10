@@ -1,4 +1,43 @@
+// @import "../components/animations";
+@import "../components/mixins";
 
-.intros-greeting{
+
+.intros-greeting {
     font-weight: 600;
+}
+
+.animation {
+    position: absolute;
+    top: 18rem;
+    right: 46rem;
+    width: 5rem;
+    border: 2px solid $white;
+
+    // border-radius: 50%;
+    animation: pulse 1.5s linear infinite;
+
+    &-first {
+        animation-delay: 1s;
+        rotate: 20deg;
+    }
+
+    &-sec {
+        margin-top: 1rem;
+        // animation-delay: 1.5s;
+        rotate: 10deg;
+    }
+
+    &-thrid {
+        
+        animation-delay: 1.5s;
+        rotate: -10deg;
+    margin-top: 2.5rem;
+    }
+
+    &-fourth {
+      
+        // animation-delay: 1.5s;
+        rotate: -30deg;
+        margin-top: 4.5rem;
+    }
 }
