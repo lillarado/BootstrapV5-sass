@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/index.b10d73a7.css">
- <script src="/index.4d6bcbeb.js" defer=""></script>
+  <link rel="stylesheet" href="./scss/main.scss">
+ <script type="module" src="./main.js"></script>
   
   <title>Document</title>
 </head>
@@ -18,10 +18,11 @@
     <div class="container">
     
         <a class="navbar-brand d-flex align-items-center col-8" href="#">
-          <img src="/logo.726d37a8.png" alt="logo" class="navbar-logo-img col">
+          <img src="./img/logo.png" alt="logo" class="navbar-logo-img col">
           <p class="navbar-logo-text col mb-0">To The Moon And Back</p>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end bg-primary col-4" id="navbarNav">
@@ -68,13 +69,14 @@
 
         <div class="col-md-6 intros text-end mt-5">
 
-          <img src="/intro-removebg-preview.28ee62cf.png" alt="video illutration" class="img-fluid">
+          <img src="./img/intro-removebg-preview.png" alt="video illutration" class="img-fluid">
 
         </div>
       </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
       </path>
     </svg>
   </section>
@@ -132,7 +134,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end ">
           <div class="services__pic">
-            <img src="/marketing.b95e318a.png" alt="marketing illustration" class="img-fluid">
+            <img src="./img/marketing.png" alt="marketing illustration" class="img-fluid">
           </div>
         </div>
       </div>
@@ -155,7 +157,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start order-sm-2 order-md-1 order-lg-1">
           <div class="services__pic">
-            <img src="/dev.f992a690.png" alt="web development illustration" class="img-fluid">
+            <img src="./img/dev.png" alt="web development illustration" class="img-fluid">
           </div>
         </div>
       </div>
@@ -177,7 +179,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end ">
           <div class="services__pic">
-            <img src="/cloud.d00cf5ca.png" alt="cloud hosting illustration" class="img-fluid">
+            <img src="./img/cloud.png" alt="cloud hosting illustration" class="img-fluid">
           </div>
         </div>
       </div>
@@ -204,7 +206,7 @@
           <h1 class="fw-bold text-uppercase faq-title">faq</h1>
         </div>
         <div class="col-md-4 faq-container-img">
-          <img src="/faq.b9b2ff41.png" alt="" class="faq-img">
+          <img src="./img/faq.png" alt="" class="faq-img">
         </div>
       </div>
 
@@ -217,11 +219,13 @@
             <!-- ACCORDION ITEM 1 -->
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
                   What are the main features?
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>This is the first item's accordion body.</strong> It is hidden by default,
                   until the collapse plugin adds the appropriate classes that we use to style each
@@ -235,11 +239,13 @@
             <!-- ACCORDION ITEM 2 -->
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   do i have to pay again after trial
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>This is the second item's accordion body.</strong> It is hidden by default,
                   until the collapse plugin adds the appropriate classes that we use to style each
@@ -253,11 +259,13 @@
             <!-- ACCORDION ITEM 3 -->
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   How can I get started after trial?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>This is the third item's accordion body.</strong> It is hidden by default,
                   until the collapse plugin adds the appropriate classes that we use to style each
@@ -271,11 +279,13 @@
             <!-- ACCORDION ITEM 4 -->
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   Can I be refunded if am not satisfied?
                 </button>
               </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>This is the third item's accordion body.</strong> It is hidden by default,
                   until the collapse plugin adds the appropriate classes that we use to style each
@@ -328,16 +338,20 @@
             <h4 class="display-3--title mb-5">start your project</h4>
             <form action="#" class="row">
               <div class="col-lg-6 col-md mb-3">
-                <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+                <input type="text" placeholder="First Name" id="inputFirstName"
+                  class="shadow form-control form-control-lg">
               </div>
               <div class="col-lg-6 col-md mb-3">
-                <input type="text" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+                <input type="text" placeholder="Last Name" id="inputLastName"
+                  class="shadow form-control form-control-lg">
               </div>
               <div class="col-lg-12 mb-3">
-                <input type="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+                <input type="email" placeholder="email address" id="inputEmail"
+                  class="shadow form-control form-control-lg">
               </div>
               <div class="col-lg-12 mb-3">
-                <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+                <textarea name="message" placeholder="message" id="message" rows="8"
+                  class="shadow form-control form-control-lg"></textarea>
               </div>
               <div class="text-center d-grid mt-1">
                 <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
@@ -472,7 +486,7 @@
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: #0000000d">
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2023 Copyright:
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
