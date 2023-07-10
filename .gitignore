@@ -4,5 +4,6 @@
 /dist
 .parcel-cache
 package-lock.json
-node_modules/.package-lock.json
-dist/index.html
+
+
+
