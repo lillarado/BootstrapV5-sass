@@ -6,52 +6,104 @@
     font-weight: 600;
 }
 
+// .animation {
+//     position: absolute;
+//     top: 18rem;
+//     right: 46rem;
+//     width: 3.5rem;
+//     border: 1px solid $white;
+
+//     // border-radius: 50%;
+//     animation: sound 2s infinite;
+
+//     &-first {
+//         animation-delay: 0.5s;
+//         rotate: 20deg;
+//     }
+
+//     &-sec {
+//         margin-top: 1rem;
+//         // animation-delay: 1.5s;
+//         rotate: 10deg;
+//     }
+
+//     &-thrid {
+
+//         animation-delay: 0.5s;
+//         rotate: -2deg;
+//     margin-top: 2rem;
+//     }
+
+//     &-fourth {
+
+//         // animation-delay: 1s;
+//         rotate: -13deg;
+//         margin-top: 2.7rem;
+//     }
+
+//     &-fifth {
+
+//         animation-delay: 0.5s;
+//         rotate: -22deg;
+//         margin-top: 3.5rem;
+//     }
+
+//     &-sixth {
+
+//         // animation-delay: 1.5s;
+//         rotate: -30deg;
+//         margin-top: 4.3rem;
+//     }
+// }
+
+
 .animation {
     position: absolute;
     top: 18rem;
     right: 46rem;
     width: 3.5rem;
     border: 1px solid $white;
-
-    // border-radius: 50%;
+    border-radius: 50%;
     animation: sound 2s infinite;
 
     &-first {
         animation-delay: 0.5s;
         rotate: 20deg;
+        opacity: 0.6;
     }
 
     &-sec {
         margin-top: 1rem;
-        // animation-delay: 1.5s;
+        animation-delay: 0.8s;
         rotate: 10deg;
+        opacity: 0.7;
     }
 
     &-thrid {
-        
-        animation-delay: 0.5s;
+        margin-top: 2rem;
+        animation-delay: 1s;
         rotate: -2deg;
-    margin-top: 2rem;
+        opacity: 0.8;
     }
 
     &-fourth {
-      
-        // animation-delay: 1s;
-        rotate: -13deg;
         margin-top: 2.7rem;
+        animation-delay: 1.2s;
+        rotate: -13deg;
+        opacity: 0.9;
     }
 
     &-fifth {
-      
-        animation-delay: 0.5s;
-        rotate: -22deg;
         margin-top: 3.5rem;
+        animation-delay: 1.4s;
+        rotate: -22deg;
+        opacity: 1;
     }
 
     &-sixth {
-      
-        // animation-delay: 1.5s;
-        rotate: -30deg;
         margin-top: 4.3rem;
+        animation-delay: 1.6s;
+        rotate: -30deg;
+        opacity: 0.9;
     }
 }
