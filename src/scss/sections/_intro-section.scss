@@ -1,4 +1,4 @@
-// @import "../components/animations";
+
 @import "../components/mixins";
 
 
@@ -6,55 +6,6 @@
     font-weight: 600;
 }
 
-// .animation {
-//     position: absolute;
-//     top: 18rem;
-//     right: 46rem;
-//     width: 3.5rem;
-//     border: 1px solid $white;
-
-//     // border-radius: 50%;
-//     animation: sound 2s infinite;
-
-//     &-first {
-//         animation-delay: 0.5s;
-//         rotate: 20deg;
-//     }
-
-//     &-sec {
-//         margin-top: 1rem;
-//         // animation-delay: 1.5s;
-//         rotate: 10deg;
-//     }
-
-//     &-thrid {
-
-//         animation-delay: 0.5s;
-//         rotate: -2deg;
-//     margin-top: 2rem;
-//     }
-
-//     &-fourth {
-
-//         // animation-delay: 1s;
-//         rotate: -13deg;
-//         margin-top: 2.7rem;
-//     }
-
-//     &-fifth {
-
-//         animation-delay: 0.5s;
-//         rotate: -22deg;
-//         margin-top: 3.5rem;
-//     }
-
-//     &-sixth {
-
-//         // animation-delay: 1.5s;
-//         rotate: -30deg;
-//         margin-top: 4.3rem;
-//     }
-// }
 
 
 .animation {
