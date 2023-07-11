@@ -7,11 +7,25 @@
 }
 
 
-
+.intros-img {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .animation-container {
+    position: absolute;
+    top: 34%;
+    right: 68%;
+    transform: translate(0, -50%);
+  }
 .animation {
     position: absolute;
-    top: 18rem;
-    right: 46rem;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
     width: 3.5rem;
     border: 1px solid $white;
     border-radius: 50%;
@@ -58,3 +72,16 @@
         opacity: 0.9;
     }
 }
+
+
+@media (max-width: 1199px) {
+    .animation-container {
+      right: 84%;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1399px){
+    .animation-container {
+        right: 79%;
+      }
+  }
